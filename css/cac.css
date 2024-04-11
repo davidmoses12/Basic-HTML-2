@@ -1,0 +1,164 @@
+body {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+header {
+    display: block;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.first {
+    border: 2px dotted black;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
+    height: auto;
+  }
+
+
+  p {
+    font-size: 25px;
+  }
+
+  .one {
+    text-align: left;
+  }
+
+  .one label {
+    display: inline-block;
+    width: 100px; 
+    text-align: right;
+    margin-right: 10px; 
+  }
+
+  .one input {
+    padding: 6px;
+    border: 2px solid black;
+    width: 200px;
+    
+  }
+
+
+  .second {
+    border: 2px dotted black;
+  }
+  
+
+
+  .two label {
+    display: inline-block;
+    width: px;
+    text-align: right;
+    margin-right: 10px; 
+    margin-bottom: 5px;
+  }
+  
+
+  input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+
+  .sex-input {
+    width: 200px;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .sex-input:focus {
+    border-color: blue;
+  }
+
+.age-input {
+  width: 200px;
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.telephone-input {
+  width: 200px;
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.telephone-input:focus {
+  border-color: blue;
+}
+
+hr {
+  position: absolute;
+  text-align: left;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: black;
+  width: 15%;
+  border: 1px solid black;
+  }
+
+  .date-input {
+    width: 200px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+
+  .profile-input {
+  width: 16%;
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  }
+
+  .clear-input {
+    font-size: 16px;
+  }
+
+  .fill-input {
+    font-size: 16px;
+  }
+
+  .line-input {
+    width: 90%;
+  }
+
+ .center-input {
+  font-size: 16px;
+  text-align: center;
+ }
+
+ button {
+  background: black;
+  color: #fff;
+  width: 300px;
+  cursor: pointer;
+  border: 1px solid black;
+  box-shadow: 5px 5px 5px #eee;
+  text-shadow: none;
+}
+
+button:hover {
+  background: green;
+  color: #fff;
+  border: 1px solid #eee;
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px lightblue;
+  text-shadow: none;
+}
